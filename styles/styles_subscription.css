@@ -1,0 +1,89 @@
+.subs-main-bg {
+    background-color: #FFF1DE;
+    margin: 50px auto;
+    width: 200px;
+    border-radius: 30px;
+    padding: 50px;
+}
+
+.subs-text-bg {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #FFF1DE;
+}
+
+.subs-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 100vh;
+    z-index: 1;
+}
+
+/* text */
+.subs-title {
+    color: #FB9333;
+    font-size: 25px;
+    font-family: 'Arial', sans-serif;
+    z-index: 2;
+}
+
+.subs-description {
+    color: #585858;
+    font-size: 40px;
+    font-family: 'Arial', sans-serif;
+    z-index: 2;
+}
+
+.subs-text {
+    color: #575757;
+    font-size: 15px;
+    font-family: 'Arial', sans-serif;
+    z-index: 2;
+}
+
+/* input */
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.email-input {
+    flex: 1;
+    /* Поле введення займає весь доступний простір */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    outline: none;
+    z-index: 2;
+}
+
+.email-input:focus {
+    border-color: #ffaa00;
+}
+
+.submit-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #FB9333;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.submit-button:hover {
+    background-color: #cf7c2e;
+}

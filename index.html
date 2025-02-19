@@ -5,6 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jez Salad</title>
+    <link rel="stylesheet" href="./styles/styles_people.css">
+    <link rel="stylesheet" href="./styles/styles_salads.css">
+    <link rel="stylesheet" href="./styles/styles_footer.css">
+    <link rel="stylesheet" href="./styles/styles_subscription.css">
 </head>
 
 <body>
@@ -84,154 +88,158 @@
             </div>
         </section>
 
-        <section>
-            <h2>What Are People Saying <span>About Us</span></h2>
-            <p>We are very happy if you are satisfied with our service and products, let's read pure reviews from
-                customers who
-                bought our products.</p>
-
-            <div>
-                <div>
-                    <span>02</span> / <span>05</span>
-                    <button aria-label="Previous Review">←</button>
-                    <button aria-label="Next Review">→</button>
+        <section class="people-about-us">
+            <div  class="text-container">
+                <h1 class="people-text-head">What Are People<br>Saying <span>About Us</span></h1>
+                <p class="people-text">We are very happy if you are satisfied with our<br> service and products, let's read pure reviews from<br>
+                    customers who bought our products.</p>
+                <div class="pages-container">
+                    <span class="page-number">02</span><span class="total-pages">/ 05</span>
                 </div>
-
-                <div>
-                    <article>
-                        <img src="./icons/Humans/Selena.png" alt="Selena Gomz">
-                        <h3>Selena Gomz</h3>
-                        <p>22 Years</p>
-                        <p>The salad is fresh!!! Don't ask about the sauce again, it's really delicious, it's going to
-                            be
-                            routine. I recommend this salad to all of you guys! because they really take care of the
-                            quality.
-                        </p>
-                    </article>
-
-                    <article>
-                        <img src="./icons/Humans/David.png" alt="David Ken">
-                        <h3>David Ken</h3>
-                        <p>24 Years</p>
-                        <p>The salad is fresh!!! Don't ask about the sauce again, it's really delicious, it's going to
-                            be
-                            routine. I recommend this salad to all of you guys! because they really take care of the
-                            quality.
-                        </p>
-                    </article>
-
-                    <article>
-                        <img src="./icons/Humans/Jenifer.png" alt="Jennifer Sina">
-                        <h3>Jennifer Sina</h3>
-                        <p>21 Years</p>
-                        <p>The salad is fresh!!! Don't ask about the sauce again, it's really delicious, it's going to
-                            be
-                            routine. I recommend this salad to all of you guys! because they really take care of the
-                            quality.
-                        </p>
-                    </article>
+                <div class="navigation-buttons">
+                    <button aria-label="Previous Review" class="button">←</button>
+                    <button aria-label="Next Review" class="button">→</button>
                 </div>
+            </div>
+            <div class="container-dudes">
+                <article class="review-card item-dudes">
+                    <img src="./icons/Humans/Selena.png" alt="Selena Gomz">
+                    <h3>Selena Gomz</h3>
+                    <p>22 Years</p>
+                    <p>The salad is fresh!!! Don't ask<br>about the sauce again, it's<br>really delicious, it's going to<br>
+                        be routine. I recommend this<br>salad to all of you guys!<br>because they really take<br>care of the
+                        quality.
+                    </p>
+                </article>
+            
+                <article class="review-card item-dudes">
+                    <img src="./icons/Humans/David.png" alt="David Ken">
+                    <h3>David Ken</h3>
+                    <p>24 Years</p>
+                    <p>The salad is fresh!!! Don't ask<br>about the sauce again, it's<br>really delicious, it's going to<br>
+                        be routine. I recommend this<br>salad to all of you guys!<br>because they really take<br>care of the
+                        quality.
+                    </p>
+                </article>
+            
+                <article class="review-card item-dudes">
+                    <img src="./icons/Humans/Jenifer.png" alt="Jennifer Sina">
+                    <h3>Jennifer Sina</h3>
+                    <p>21 Years</p>
+                    <p>The salad is fresh!!! Don't ask<br>about the sauce again, it's<br>really delicious, it's going to<br>
+                        be routine. I recommend this<br>salad to all of you guys!<br>because they really take<br>care of the
+                        quality.
+                    </p>
+                </article>
             </div>
         </section>
 
         <section>
-            <div>
-                <h3>Menu Yang Membuatmu Jatuh Cinta</h3>
-                <h2>Enjoy The Best Menu And Get <span>Discounts</span> Available</h2>
-
-                <article>
-                    <img src="./icons/Food/YummySalad.png" alt="Mini Salad Yummy">
-                    <h4>Mini Salad Yummy</h4>
-                    <p>$2.99</p>
+            <div class="header">
+                <h3 class="menu-text">Menu Yang Membuatmu Jatuh Cinta</h3>
+                <h2 class="enjoy-menu">Enjoy The Best Menu And Get <span>Discounts</span> Available</h2>
+            </div>
+            <div class="salad-container">
+                <article class="salad-item">
+                    <img src="./icons/Food/YummySalad.png" alt="Mini Salad Yummy" class="salad-image">
+                    <div class="text-overlay">
+                        <h4 class="salad-title">Mini Salad Yummy</h4>
+                        <p class="salad-price">$2.99</p>
+                    </div>
                 </article>
-                <article>
-                    <img src="./icons/Food/CompSalad.png" alt="Completed Salad">
-                    <h4>Completed Salad</h4>
-                    <p>$3.99</p>
+                <article  class="salad-item">
+                    <img src="./icons/Food/CompSalad.png" alt="Completed Salad" class="salad-image">
+                    <div class="text-overlay">
+                        <h4 class="salad-title">Completed Salad</h4>
+                        <p class="salad-price">$3.99</p>
+                    </div>
                 </article>
-                <article>
-                    <img src="./icons/Food/YummySaladRed.png" alt="Salad Yummy Red">
-                    <h4>Salad Yummy Red</h4>
-                    <p>$3.99</p>
+                <article class="salad-item">
+                    <img src="./icons/Food/YummySaladRed.png" alt="Salad Yummy Red" class="salad-image">
+                    <div class="text-overlay">
+                        <h4 class="salad-title">Salad Yummy Red</h4>
+                        <p class="salad-price">$3.99</p>
+                    </div>
                 </article>
-
             </div>
 
-            <div>
-                <h3>Our Subscribe</h3>
-                <h2>Subscribe To Get The Latest Promo from Jez Salad</h2>
-                <p>We recommend you to subscribe to our promo program, drop your email below to get daily update about
-                    us</p>
+            <div class="subs-main_bg">
+                <img src="./icons/new/image.png" alt="vector_bg" class="subs-img">
+                <div class="subs-text-bg">
+                    <h3 class="subs-title">Our Subscribe</h3>
+                    <h2 class="subs-description">Subscribe To Get The Latest<br>Promo from Jez Salad</h2>
+                    <p class="subs-text">We recommend you to subscribe to our promo program,<br>
+                        drop your email below to get daily update about us</p>
 
-                <form>
-                    <input type="email" placeholder="Enter your email address">
-                    <button type="submit">Subscribe</button>
-                </form>
+                    <form class="subscribe-form">
+                        <input type="email" placeholder="Enter your email address" class="email-input">
+                        <button type="submit" class="submit-button">Subscribe</button>
+                    </form>
+                </div>
             </div>
         </section>
 
     </main>
 </body>
 
-<footer>
-    <div>
-        <h4><span>JEZ</span> SALAD</h4>
-        <p>Jez Salad is the pioneer of healthy fruit salad with high nutrition.</p>
-        <p>©Copyright Jez Salad</p>
+<footer class="footer">
+    <div class="footer-column">
+        <h4 class="footer-title"><span class="accent">JEZ</span> SALAD</h4>
+        <p class="footer-text">Jez Salad is the pioneer of healthy fruit salad with high nutrition.</p>
+        <p class="footer-text">©Copyright Jez Salad</p>
     </div>
 
-    <div>
-        <h4><span>Feature</span></h4>
-        <ul>
-            <li>Menu</li>
-            <li>Promo</li>
-            <li>Contact</li>
-            <li>About Us</li>
+    <div class="footer-column">
+        <h4 class="footer-title"><span class="accent">Feature</span></h4>
+        <ul class="footer-list">
+            <li class="footer-list-item">Menu</li>
+            <li class="footer-list-item">Promo</li>
+            <li class="footer-list-item">Contact</li>
+            <li class="footer-list-item">About Us</li>
         </ul>
     </div>
 
-    <div>
-        <h4><span>Get In Touch</span`>
-        </h4>
-        <figure>
-            <img src="./icons/Simple/Navigate.png" alt="Navigation png">
-            <figcaption>
+    <div class="footer-column">
+        <h4 class="footer-title"><span class="accent">Get In Touch</span></h4>
+        <figure class="footer-figure">
+            <img src="./icons/Simple/Navigate.png" alt="Navigation png" class="footer-icon">
+            <figcaption class="footer-text">
                 <p>8180 Ohio St. South Gate, CA 90280</p>
             </figcaption>
         </figure>
-        <figure>
-            <img src="./icons/Simple/Letter.png" alt="Message png">
-            <figcaption>
+        <figure class="footer-figure">
+            <img src="./icons/Simple/Letter.png" alt="Message png" class="footer-icon">
+            <figcaption class="footer-text">
                 <p>Ourstudio@hello.com</p>
             </figcaption>
         </figure>
-        <figure>
-            <img src="./icons/Simple/Phone.png" alt="Phone png">
-            <figcaption>
+        <figure class="footer-figure">
+            <img src="./icons/Simple/Phone.png" alt="Phone png" class="footer-icon">
+            <figcaption class="footer-text">
                 <p>+1 386-688-3295</p>
             </figcaption>
         </figure>
     </div>
 
-    <div>
-        <h4>Follow us</h4>
-        <ul>
-            <li>
-                <figure>
-                    <img src="./icons/Simple/Twitter.png" alt="Twitter png">
-                    <figcaption><a href="#">Twitter</a></figcaption>
+    <div class="footer-column">
+        <h4 class="footer-title">Follow us</h4>
+        <ul class="footer-list">
+            <li class="footer-list-item">
+                <figure class="footer-figure">
+                    <img src="./icons/Simple/Twitter.png" alt="Twitter png" class="footer-icon">
+                    <figcaption><a href="#" class="footer-link">Twitter</a></figcaption>
                 </figure>
             </li>
-            <li>
-                <figure>
-                    <img src="./icons/Simple/LinkedIn.png" alt="LinkedIn png">
-                    <figcaption><a href="#">LinkedIn</a></figcaption>
+            <li class="footer-list-item">
+                <figure class="footer-figure">
+                    <img src="./icons/Simple/LinkedIn.png" alt="LinkedIn png" class="footer-icon">
+                    <figcaption><a href="#" class="footer-link">LinkedIn</a></figcaption>
                 </figure>
             </li>
-            <li>
-                <figure>
-                    <img src="./icons/Simple/Insta.png" alt="Instagram png">
-                    <figcaption><a href="#">Instagram</a></figcaption>
+            <li class="footer-list-item">
+                <figure class="footer-figure">
+                    <img src="./icons/Simple/Insta.png" alt="Instagram png" class="footer-icon">
+                    <figcaption><a href="#" class="footer-link">Instagram</a></figcaption>
                 </figure>
             </li>
         </ul>
