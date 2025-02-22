@@ -12,7 +12,7 @@
     padding: 10px;
     margin: 25% 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    font-family: 'Arial', sans-serif;
+    font-family: 'Ariel', sans-serif;
     max-width: 30%;
 }
 
@@ -26,11 +26,13 @@
     font-size: 1em;
     line-height: 1.5;
     color: #555;
-    margin: 0;
+    margin-bottom: 5px;
 }
 
 .review-card img {
     margin-top: -35%;
+    margin-left: -10%;
+    transform: scale(0.6);
 }
 
 .container-dudes {
@@ -54,7 +56,7 @@
 .people-text-head {
     font-size: 70px;
     font-weight: bold;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Ariel', sans-serif;
     padding-top: 10%;
 }
 
@@ -68,7 +70,7 @@
     color: #666;
     text-align: left;
     line-height: 1.6;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Ariel', sans-serif;
     margin: 0 auto;
 }
 
@@ -79,14 +81,14 @@
 }
 
 .page-number {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Ariel', sans-serif;
     font-size: 48px;
     font-weight: bold;
     color: #222;
 }
 
 .total-pages {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Ariel', sans-serif;
     font-size: 20px;
     color: #aaa;
 }
@@ -110,9 +112,11 @@
     cursor: pointer;
     background: #ffcc80;
     color: #333;
+    transition: all 0.3s ease;
 }
 
 .button:hover {
     background: #fb8c00;
     color: white;
+    transition: all 0.3s ease;
 }

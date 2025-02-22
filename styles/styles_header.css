@@ -1,0 +1,50 @@
+.header-bg {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:23%
+}
+
+.header-jez {
+    color: #585858;
+}
+
+.header-jez span{
+    color: #FB9333;
+}
+
+.header-links {
+    display: flex;
+    gap: 30px;
+}
+
+.header-links a{
+    cursor: pointer;
+    text-decoration: none;
+    color: #575757;
+    font-weight: bold;
+}
+
+.header-links a:hover {
+    color: #FB9333;
+}
+
+.header-button {
+    color: #ffffff;
+    background-color: #FB9333;
+    border-radius: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+    border: 0px solid #ffffff;
+    transition: background-color 0.3s;
+}
+
+.header-button:hover {
+    cursor: pointer;
+    background-color: #cf7c2e;
+} 

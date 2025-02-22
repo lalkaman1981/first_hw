@@ -14,13 +14,16 @@
 .menu-text {
     color: #FB9333;
     font-size: 25px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: -2%;
+    margin-top: 10%;
 }
 
 .enjoy-menu {
+    text-align: center;
     color: #585858;
     font-size: 50px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .enjoy-menu span {
     color: #FB9333;
@@ -66,7 +69,7 @@
     font-size: 24px;
     font-weight: bold;
     color: #ffffff;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Ariel', sans-serif;
     margin: 0 0 5px 0
 }
 
@@ -74,6 +77,6 @@
     font-size: 20px;
     color: #ffffff;
     font-weight: bold;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Ariel', sans-serif;
     margin: 0;
 }

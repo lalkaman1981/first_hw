@@ -4,6 +4,8 @@
     width: 200px;
     border-radius: 30px;
     padding: 50px;
+    height: 65vh;
+    width: 140vh;
 }
 
 .subs-text-bg {
@@ -12,8 +14,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: #FFF1DE;
+    text-align: center;
 }
 
 .subs-img {
@@ -22,29 +24,30 @@
     justify-content: center;
     align-items: center;
     position: absolute;
-    height: 100vh;
+    height: 85vh;
     z-index: 1;
+    margin-left: -7%;
 }
 
 /* text */
 .subs-title {
     color: #FB9333;
     font-size: 25px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     z-index: 2;
 }
 
 .subs-description {
     color: #585858;
     font-size: 40px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     z-index: 2;
 }
 
 .subs-text {
     color: #575757;
     font-size: 15px;
-    font-family: 'Arial', sans-serif;
+    font-family: 'Poppins', sans-serif;
     z-index: 2;
 }
 
@@ -52,36 +55,45 @@
 .subscribe-form {
     display: flex;
     align-items: center;
-    gap: 10px;
-    max-width: 400px;
-    margin: 0 auto;
-    z-index: 2;
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 10px;
+    width: 45%;
+    margin-top: 7%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    z-index:2;
 }
 
 .email-input {
     flex: 1;
-    /* Поле введення займає весь доступний простір */
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 25px;
+    border: none;
     outline: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 40px;
     z-index: 2;
+}
+
+.submit-button {
+    background-color: #FB9333;
+    color: #fff;
+    border: none;
+    border-radius: 40px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 2;
+}
+
+
+.subs-cursor {
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .email-input:focus {
     border-color: #ffaa00;
-}
-
-.submit-button {
-    padding: 10px 20px;
-    font-size: 16px;
-    color: #fff;
-    background-color: #FB9333;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    z-index: 2;
 }
 
 .submit-button:hover {

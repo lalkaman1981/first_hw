@@ -1,0 +1,207 @@
+/* main */
+
+.mainp_main {
+    margin-bottom: 5%;
+}
+
+/* text */
+.mainp_main_text {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 40%;
+    margin-left: 8%;
+    gap: 50px;
+    z-index: 1;
+    margin-top: 3%;
+}
+
+.mainp_number_one {
+    background-color: #FFF0DC;
+    color: #FB9333;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 43%;
+    border-radius: 30px;
+    padding:15px;
+    font-size: 18px;
+    width:34%;
+}
+
+.mainp_text {
+    font-size: 72px;
+    color: #575757;
+    margin-top: -5%;
+    margin-bottom: -5%;
+}
+
+.mainp_text span {
+    color: #FB9333;
+}
+
+.mainp_sub_t {
+    font-size: 20px;
+    color: #575757;
+    line-height: 1.6;
+}
+
+.mainp_stats {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    color:#575757;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.mainp_stats span{
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.mainp_button {
+    color: #ffffff;
+    background-color: #FB9333;
+    border-radius: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-weight: bold;
+    font-size: 16;
+    border: 0px solid #ffffff;
+    transition: background-color 0.3s;
+    width:30%;
+}
+
+.mainp_button:hover {
+    cursor: pointer;
+    background-color: #cf7c2e;
+}
+
+/* images */
+
+.mainp_customer {
+    background-size: contain;
+    background-position: right top;
+    background-repeat: no-repeat;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    position: absolute;
+}
+
+.calorie-progress-container {
+    display: flex;
+    justify-content: space-between;
+    width: 125px;
+    padding-bottom: 15px;
+}
+
+.progress-bar {
+    height: 70px;
+    width: 9px;
+    background: #e7e5f1;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.progress-bar::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: var(--value);
+    background: linear-gradient(180deg, #fb9333 0%, #ffb168 100%);
+    border-radius: 5px;
+}
+
+/* calories */
+
+.mainp_calories_bg {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 15%;
+    background-color: #ffffff;
+    opacity: 0.9;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    margin-top: -21%;
+    margin-left: -16%;
+    margin-right: 3%;
+}
+.mainp_calories_bg span {
+    font-weight: bold;
+}
+
+/* stats */
+
+.mainp_smile {
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 80px;
+    padding-right: 30px;
+    border-radius: 50px;
+    margin-top: -20%;
+    margin-right: 14%;
+    width:21%;
+}
+
+.mainp_smile img{
+    max-width: 75px;
+    max-height: 75px;
+}
+
+.mainp_smile1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: static;
+    margin-left: -9%;
+    margin-bottom: -6%;
+}
+
+.mainp_smile1 span {
+    font-weight: bold;
+}
+
+.mainp_smile1_t {
+    font-size: 18px;
+    color: #575757;
+}
+
+.mainp_smile2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top:-3%;
+    margin-right: 20%;
+}
+
+.mainp_smile2 img{
+    height: 15px;
+}
+
+.mainp_smile2 p{
+    width: 150px;
+    margin-left:-15%;
+    color: #575757;
+}
+
+/* image blocks */
+
+.mainp_blocks {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 15%;
+    margin-right: 5%;
+    font-family: 'Poppins', sans-serif;
+}
